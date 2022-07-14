@@ -2,5 +2,5 @@ class Meal < ApplicationRecord
     belongs_to :user
 
     validates :title, presence: true
-    validates :instructions, length: { minimum: 30 }
+    validates :directions, length: { minimum: 30 }
 end

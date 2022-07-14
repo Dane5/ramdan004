@@ -11,6 +11,6 @@ class MealsController < ApplicationController
       private
     
       def meal_params
-        params.permit(:title, :instructions, :minutes_to_complete)
+        params.permit(:title, :directions, :prep_time)
       end
 end
